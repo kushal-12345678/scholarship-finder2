@@ -6,7 +6,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const app = express();
 app.use(cors({ origin: true })); // ✅ Enable CORS
 
-const genAI = new GoogleGenerativeAI("AIzaSyCyHtNd9mFmmLTv8D9wLOEi-w8rUYx3_f8"); // 🔁 Replace with your actual key
+const genAI = new GoogleGenerativeAI("AIzaSyCxDOJOTAvKcFAM79NS8HRTFHTNtOdv1dQ"); // 🔁 Replace with your actual key
 
 app.post("/", async (req, res) => {
   try {
